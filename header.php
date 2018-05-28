@@ -42,13 +42,18 @@
 					} 
 					?>
 					
+							
+					<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 social-nav"><a href="http://www.fayepelsmaeker.com/social/"><span class="screen-reader-text">facebook</span></a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65 social-nav"><a href="https://www.facebook.com/Faye-Pelsmaeker-2038274576391374/"><span class="screen-reader-text">facebook</span></a></li>
+					
+				
 					<li class="header-search">
 						<form method="get" class="search-form" id="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 							<input type="search" class="search-field" name="s" placeholder="<?php _e( 'Search Form', 'hitchcock' ); ?>" /> 
 							<a class="search-button" onclick="document.getElementById( 'search-form' ).submit(); return false;"><div class="fa fw fa-search"></div></a>
 						</form>
 					</li>
-					
+										
 				</ul>
 				
 				<div class="clear"></div>
@@ -82,12 +87,13 @@
 				<?php get_search_form(); ?>
 			
 			</div><!-- .mobile-navigation -->
-			
-		</div><!-- .navigation -->
+		</div>	
+		<!-- .navigation -->
 
 		<?php $image_image_url = get_header_image() ? get_header_image() : get_template_directory_uri() . '/images/bg.jpg'; ?>
 		
 		<div class="header-image" style="background-image: url( <?php echo $image_image_url; ?> );"></div>
+		
 	
 		<div class="header section-inner">
 		
