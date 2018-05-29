@@ -12,8 +12,7 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
-		
-		<div class="navigation">
+				<div class="navigation">
 			
 			<div class="section-inner">
 				
