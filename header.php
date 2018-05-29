@@ -43,10 +43,7 @@
 					?>
 					
 							
-					<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62 social-nav"><a href="http://www.fayepelsmaeker.com/social/"><span class="screen-reader-text">facebook</span></a></li>
-<li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65 social-nav"><a href="https://www.facebook.com/Faye-Pelsmaeker-2038274576391374/"><span class="screen-reader-text">facebook</span></a></li>
-					
-				
+							
 					<li class="header-search">
 						<form method="get" class="search-form" id="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 							<input type="search" class="search-field" name="s" placeholder="<?php _e( 'Search Form', 'hitchcock' ); ?>" /> 
@@ -116,29 +113,6 @@
 			if ( get_bloginfo( 'description' ) ) : ?>
 			
 				<p class="blog-description"><?php echo bloginfo( 'description' ); ?></p>
-			
-			<?php endif;
-			
-			if ( has_nav_menu( 'social' ) ) : ?>
-			
-				<ul class="social-menu">
-							
-					<?php 
-					wp_nav_menu( array(
-						'theme_location'	=>	'social',
-						'container'			=>	'',
-						'container_class'	=>	'menu-social',
-						'items_wrap'		=>	'%3$s',
-						'menu_id'			=>	'menu-social-items',
-						'menu_class'		=>	'menu-items',
-						'depth'				=>	1,
-						'link_before'		=>	'<span class="screen-reader-text">',
-						'link_after'		=>	'</span>',
-						'fallback_cb'		=>	'',
-					) );
-					?>
-					
-				</ul><!-- .social-menu -->
 			
 			<?php endif; ?>
 			
